@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+#navbar {
+    background: rgb(109, 156, 90);
+    width: 110%;
+    overflow: hidden;
+    margin: 0;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+#navbar ul {
+    list-style: none;
+}
+#navbar li {
+    display: inline;
+}
+#navbar a {
+    padding-right: 40px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Poppins;
+}
+.subhead{
+    font-family: Poppins;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+.peter a {
+    text-decoration: none;
+    color: rgb(62, 62, 231);
+}
+.peter {
+    font-size: 18px;
+    font-family: Poppins;
+    width: 80%;
+    margin-left: 120px;
+}
+.levels {
+    height: 150px;
+    width: 520px;
+    border: 2px solid #000;
+    float: right;
+    margin: 40px;
+    background-image: url(../images/driving_autonomy.jpg);
+}
+.back_link {
+    text-align: center;
+    margin: 60px;
+    font-size: 20px;
+}
+.back_link a {
+    text-decoration: none;
+    color: rgb(62, 62, 231);
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: Poppins;
+}

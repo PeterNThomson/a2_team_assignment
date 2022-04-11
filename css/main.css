@@ -21,9 +21,53 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #fff;
+    font-family: Poppins;
+}
+.subhead{
+    font-family: Poppins;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+.team{
+    font-family: Poppins;
+    text-align: center;
+    margin: 50px;
+}
+.text {
+    font-size: 18px;
+    font-family: Poppins;
+    width: 80%;
+    margin-left: 120px;
+}
+.m_pic {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #000;
+    margin: 40px;
 }
 .p_pic {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border: 2px solid #000;
+    background-image: url(../images/profile_pic.png);
+    margin: 40px;
+}
+.al_pic {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #000;
+    margin: 40px;
+}
+.a_pic {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #000;
+    margin: 40px;
+}
+.k_pic {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #000;
+    margin: 40px;
 }

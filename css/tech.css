@@ -38,7 +38,7 @@ body {
     height: 150px;
     width: 520px;
     border: 2px solid #000;
-    float: left;
+    float: right;
     margin: 40px;
     background-image: url(../images/driving_autonomy.jpg);
 }

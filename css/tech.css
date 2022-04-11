@@ -22,3 +22,23 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.subhead{
+    font-family: Poppins;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+.peter {
+    font-size: 18px;
+    font-family: Poppins;
+    width: 80%;
+    margin-left: 120px;
+}
+.levels {
+    height: 150px;
+    width: 520px;
+    border: 2px solid #000;
+    float: left;
+    margin: 40px;
+    background-image: url(../images/driving_autonomy.jpg);
+}

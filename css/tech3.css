@@ -29,24 +29,6 @@ body {
     text-align: center;
     margin-top: 60px;
 }
-.text a {
-    text-decoration: none;
-    color: rgb(62, 62, 231);
-}
-.text {
-    font-size: 18px;
-    font-family: Poppins;
-    width: 80%;
-    margin-left: 120px;
-}
-.levels {
-    height: 150px;
-    width: 520px;
-    border: 2px solid #000;
-    float: right;
-    margin: 40px;
-    background-image: url(../images/driving_autonomy.jpg);
-}
 .back_link {
     text-align: center;
     margin: 60px;
@@ -59,4 +41,10 @@ body {
     padding: 10px;
     margin-top: 30px;
     font-family: Poppins;
+}
+.text {
+    font-size: 18px;
+    font-family: Poppins;
+    width: 80%;
+    margin-left: 120px;
 }

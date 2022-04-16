@@ -44,6 +44,7 @@ body {
     height: 350px;
     width: 350px;
     border: 2px solid #000;
+    background-image: url(../images/Michael snapshot.jpg);
     margin: 40px;
 }
 .p_pic {

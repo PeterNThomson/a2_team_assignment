@@ -72,6 +72,12 @@ li {
     margin-bottom: 5px;
     margin-top: 40px;
 }
+#mainarea h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
 #mainArea a {
     text-decoration: none;
     color: rgb(62, 62, 231);
@@ -109,6 +115,7 @@ td, th {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-bottom: 40px;
 }
 .back_link {
     text-align: center;

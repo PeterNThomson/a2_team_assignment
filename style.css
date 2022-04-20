@@ -104,6 +104,9 @@ td, th {
     margin-right: auto;
     margin-bottom: 35px;
 }
+#links h2 {
+    text-align: center;
+}
 .levels {
     display: block;
     margin-left: auto;

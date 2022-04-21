@@ -30,7 +30,7 @@
                 <h2>Introduction</h2>
                 <p>
                     After going over the various ideas proposed by the team with practicality and achievability in mind,
-                    we ended up settling on Alexander’s Spotify overlay.
+                    we ended up settling on Alexander's Spotify overlay.
                     <br>
                     This idea received high praise from Thomas Bierly in the feedback from A1 and ended up winning us
                     over with its simplicity and potential; it is highly feasible, and it reaches an already large and
@@ -60,49 +60,49 @@
                     <br>
                     Today, Spotify alone has 406 million users, with over 25% of Americans reporting that they use Spotify monthly.
                     <br>
-                    That’s a lot of songs being skipped, yet we can’t help feeling like the action is clunky and distracting. 
-                    If I want more choice over what track to play next, I have to stop what I’m doing, open the application, 
+                    That's a lot of songs being skipped, yet we can't help feeling like the action is clunky and distracting. 
+                    If I want more choice over what track to play next, I have to stop what I'm doing, open the application, 
                     and sift through my unorganised playlists until I find something that tickles my fancy.
                     <br>
-                    What if I had a convenient overlay that knew what I wanted to play ahead of time, didn’t involve alt-tabbing and 
+                    What if I had a convenient overlay that knew what I wanted to play ahead of time, didn't involve alt-tabbing and 
                     gave me more control than the original service, all without breaking focus on my workflow or gameplay.
                     <br>
-                    That’s what we want to achieve.
+                    That's what we want to achieve.
                 </p>
 
                 <h2>Why is this important?</h2>
                 <p>
                     The time it takes to alt-tab and find something to listen to or simply adjust the volume of a song might seem insignificant. 
-                    But whether you’re an artist immersed in a project or a gamer min-maxing every decision, you’d be surprised how much a 
+                    But whether you're an artist immersed in a project or a gamer min-maxing every decision, you'd be surprised how much a 
                     simple alt-tab can shift your focus, not to mention the time it takes to alt-tab, especially in some fullscreen applications, 
                     definitely adds up.
                     <br>
                     I have experienced first-hand the difference a simple quality of life change like this can make. 
                     For example, in Adobe After Effects, I often work with dozens of effects at once, which involves opening a 
-                    nested dropdown menu or selecting the painfully slow search window to find the effect I’m looking for, which works fine. 
+                    nested dropdown menu or selecting the painfully slow search window to find the effect I'm looking for, which works fine. 
                     Still, when I tried the FX Console plugin by VideoCopilot, my workflow suddenly felt more focused, streamlined, and much quicker. 
-                    I couldn’t go back to the built-in methods.
+                    I couldn't go back to the built-in methods.
                     <br>
                     FX Console achieved this by adding a simple hotkey that opened a more optimised 
                     search overlay that I could immediately type into without using any mouse input.
                 </p>
-                <img src="https://www.videocopilot.net/blog/wp-content/uploads/2018/04/Animation.gif" alt="Gif of the plugin"/>
+                <img class="gif" src="https://www.videocopilot.net/blog/wp-content/uploads/2018/04/Animation.gif" alt="Gif of the plugin"/>
                 <p>
-                    In reality, the time saved is minimal, but the perceived difference is much more valuable because I’m not losing my train of thought and, 
+                    In reality, the time saved is minimal, but the perceived difference is much more valuable because I'm not losing my train of thought and, 
                     in turn, getting more work done. In this case, the seamless overlay makes all the difference.
                 </p>
                 
                 <h2>Acknowledgement & Basic Info</h2>
                 <p>
-                    Here’s a speculative rundown of your setup experience using our overlay.
+                    Here's a speculative rundown of your setup experience using our overlay.
                     <br>
                     Post-installation, you will be prompted to connect your Spotify account, after which a window will open asking what key you
                     want to set as your primary keybind, with the default being Tab.
                     <br>
-                    If the Spotify directory isn’t found, an additional window will prompt you to locate it.
-                    Finally, a success message will be shown, letting you know you’re up and running and what to expect.
+                    If the Spotify directory isn't found, an additional window will prompt you to locate it.
+                    Finally, a success message will be shown, letting you know you're up and running and what to expect.
                     <br>
-                    Keeping distractions to a minimum means this is the last you’ll see of configuration windows. 
+                    Keeping distractions to a minimum means this is the last you'll see of configuration windows. 
                     If you want to change any settings, you can access the program via the system tray.
                     <br>
                     <br>
@@ -110,8 +110,8 @@
                     the windows media keys, but this overlay offers no real convenience over alt-tabbing, and its intrusive implementation
                     is more frustrating than anything, which is partly what inspired us to make this tool.
                     <br>
-                    We also want to clarify that Spotify has built-in keybinds, but they’re only usable with the application in focus;
-                    in addition to that, they’re a burden to press and unchangeable.
+                    We also want to clarify that Spotify has built-in keybinds, but they're only usable with the application in focus;
+                    in addition to that, they're a burden to press and unchangeable.
                 </p>
 
                 <h2>Overlay Features</h2>
@@ -126,7 +126,7 @@
                     </u1>
                 </p>
                 <p>
-                    While it’s tempting to include extra functionality, keeping the program light and not cluttering the overlay is essential.
+                    While it's tempting to include extra functionality, keeping the program light and not cluttering the overlay is essential.
                 </p>
 
                 <h2>What comes next?</h2>
@@ -192,11 +192,11 @@
 
                 <h2>Tools and Technologies</h2>
                 <p>
-                    The program will be built for Windows in Python and utilise the Tekore library to take advantage of Spotify’s Web API.
+                    The program will be built for Windows in Python and utilise the Tekore library to take advantage of Spotify's Web API.
                     <br>
                     We plan to use Tekore over the more common Spotipy library for general ease of use and simplicity, but this could change.
                     <br>
-                    We will split the code into two modules, a frontend for handling inputs and visual elements displayed on the user’s end and 
+                    We will split the code into two modules, a frontend for handling inputs and visual elements displayed on the user's end and 
                     a backend for managing requests to the API wrapper and handling exceptions.
                     <br>
                     The various processes will be segmented into classes and further organised through methods in an object-oriented paradigm.
@@ -208,20 +208,20 @@
                     <u1>
                         <li>Knowledge of the Tekore library for integration with Spotify.</li>
                         <li>Knowledge of the pygame library for creating the overlay window itself.</li>
-                        <li>Knowledge of the tkinter library for creating the overlay’s GUI.</li>
+                        <li>Knowledge of the tkinter library for creating the overlay's GUI.</li>
                         <li>Basic understanding of the pywin32 library for changing focus within Windows.</li>
-                        <li>A basic understanding of Python’s syntax.</li>
+                        <li>A basic understanding of Python's syntax.</li>
                     </u1>
                 </p>
                 <p>
                     We anticipate running into skill hurdles around aspects like window focus interacting with fullscreen applications, 
-                    GUI animations, and authorisation tokens for logging into the app. We aren’t familiar with these areas, 
-                    but we’re confident we can overcome these obstacles with some experimentation and practice.
+                    GUI animations, and authorisation tokens for logging into the app. We aren't familiar with these areas, 
+                    but we're confident we can overcome these obstacles with some experimentation and practice.
                 </p>
 
                 <h2>Outcome</h2>
                 <p>
-                    We’ll definitely learn a lot from this project, and it could open the door to working on other similar products in the future.
+                    We'll definitely learn a lot from this project, and it could open the door to working on other similar products in the future.
                     Imagine a line of convenient minimalist programs, each with its own distinct use and purpose.
                     <br><br>
                     If the development of this program is successful, we will have created a streamlined solution to alt-tabbing that encourages focus,

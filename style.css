@@ -94,6 +94,11 @@ table {
     width: 50%;
     margin: auto;
 }
+.gif {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 td, th {
     border: 1px solid #141414;
     text-align: center;

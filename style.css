@@ -72,6 +72,12 @@ li {
     margin-bottom: 5px;
     margin-top: 40px;
 }
+.sectionContent h3 {
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
 #mainArea a {
     text-decoration: none;
     color: rgb(62, 62, 231);

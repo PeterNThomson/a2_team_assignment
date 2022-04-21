@@ -59,7 +59,7 @@ p {
     margin-right: auto;
     margin-top: 80px;
 }
-.text {
+.index_text {
     text-align: center;
 }
 li {
@@ -148,21 +148,6 @@ td, th {
     text-decoration: underline;
     background-color: rgba(0, 255, 166, 0.498);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .autonomous {
     float: left;
 }
@@ -191,16 +176,9 @@ td, th {
     float: right;
     margin-right: 140px;
 }
-.back_link_tech {
+.page_fix {
     text-align: center;
     margin: 60px;
     font-size: 20px;
     margin-top: 900px;
-}
-.back_link_tech a {
-    text-decoration: none;
-    color: rgb(62, 62, 231);
-    border: 2px solid #000;
-    margin-top: 30px;
-    font-family: Poppins;
 }

@@ -137,3 +137,44 @@ td, th {
     margin-top: 30px;
     font-family: Poppins;
 }
+.autonomous {
+    float: left;
+}
+.autonomous h2 {
+    float: left;
+    margin-left: 60px;
+}
+.cloud {
+    float: right;
+}
+.cloud h2 {
+    float: right;
+    margin-right: 80px;
+}
+.crypto {
+    float: left;
+}
+.crypto h2 {
+    float: left;
+    margin-left: 20px;
+}
+.robots {
+    float: right;
+}
+.robots h2 {
+    float: right;
+    margin-right: 140px;
+}
+.back_link_tech {
+    text-align: center;
+    margin: 60px;
+    font-size: 20px;
+    margin-top: 900px;
+}
+.back_link_tech a {
+    text-decoration: none;
+    color: rgb(62, 62, 231);
+    border: 2px solid #000;
+    margin-top: 30px;
+    font-family: Poppins;
+}
